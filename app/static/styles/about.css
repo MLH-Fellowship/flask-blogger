@@ -30,15 +30,22 @@
 }
 
 .container ul > li > a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   background-color: #f8b92a;
   text-decoration: none;
   padding: 1rem;
   width: 87%;
   border-radius: 5px;
-  display: inline-block;
 
   color: white;
   font-weight: bold;
+}
+
+.container ul > li > a > p {
+  margin: 0;
 }
 
 .container ul > li > h2 {
