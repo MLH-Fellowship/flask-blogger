@@ -12,3 +12,15 @@ def index():
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+@app.route('/about/ishika')
+def about_ishika():
+    return render_template('about_base.html', fellowName='Ishika');
+
+@app.route('/about/frankie')
+def about_frankie():
+    return render_template('about_base.html', fellowName='Frankie');
+
+@app.route('/about/sebastian')
+def about_sebastian():
+    return render_template('about_base.html', fellowName='Sebastian');
