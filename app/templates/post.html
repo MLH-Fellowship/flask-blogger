@@ -1,44 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta property="og:url" content="{{ url }}" />
+{% extends 'base.html' %}
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+{% block head %}
+    <title>Blog post</title>
+{% endblock %}
 
-    <link lang="sass" rel="stylesheet" href="./static/styles/main.css" />
-    <link rel="icon" href="./static/img/favicon.ico" type="image/x-icon" />
-    <title>{{ title }}</title>
-  </head>
-  <body>
-    <header class="nav-bar">
-      <div class="nav-content">
-        <a href="/">
-          <div class="nav-logo">
-            <img src="./static/img/logo.svg" />
-          </div>
-        </a>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-        </ul>
-      </div>
-    </header>
+{% block body %}
+<div class="container">
     <div class="image">
         <img src="http://placehold.it/">
     </div>
+
     <div class="content">
-    <h1>First week....how was it?</h1>
-    <p>by Ishika</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas officiis unde dolore obcaecati, nihil nisi aperiam debitis quasi a dolorum aut labore corporis, optio ipsum ratione culpa doloremque ab mollitia!</p>
+        <h1>First week....how was it?</h1>
+        <p>by Ishika</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas officiis unde dolore obcaecati, nihil nisi aperiam debitis quasi a dolorum aut labore corporis, optio ipsum ratione culpa doloremque ab mollitia!</p>
     </div>
-</html>
+</div>
+{% endblock %}

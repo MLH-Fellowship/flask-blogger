@@ -1,4 +1,4 @@
-#!/Users/frankiesmac/Documents/MLH/flask-blogger/python3-virtualenv/bin/python3
+#!/Users/crossa/dev/flask-blogger/python3-virtualenv/bin/python3.9
 # -*- coding: utf-8 -*-
 import re
 import sys
