@@ -1,0 +1,75 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.hero {
+  margin-top: 2rem;
+  font-family: Roboto;
+  font-size: 25px;
+  line-height: 50px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.blogposts {
+  margin-top: 100px;
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1rem;
+  list-style: none;
+}
+
+.post {
+  background-color: white;
+  border-radius: 8px;
+  width: 278.75px;
+  height: 388.75px;
+}
+.post h3 {
+  font-size: 18.75px;
+  margin-left: 12.5px;
+  line-height: 22px;
+  margin-bottom: 0;
+  margin-top: 12.5px;
+}
+.post h4 {
+  display: inline;
+  position: relative;
+  top: -25px;
+  left: 7.5px;
+  font-size: 15px;
+  line-height: 18px;
+}
+.post p {
+  margin-left: 12.5px;
+  margin-top: 1.25px;
+  font-size: 14px;
+  line-height: 16.06px;
+  font-weight: 400;
+}
+
+#date {
+  position: relative;
+  left: 40px;
+  top: -20px;
+}
+
+#post-img {
+  width: 256.25px;
+  height: 225px;
+  border-radius: 5px;
+  padding-left: 12.5px;
+  padding-top: 10px;
+}
+
+#profile-img {
+  margin-left: 12.5px;
+  width: 41.25px;
+  height: 41.25px;
+  border-radius: 20px;
+}
