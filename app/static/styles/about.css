@@ -9,12 +9,13 @@
 
 .container h1 {
   text-align: center;
-  /* color: white; */
+  color: white;
 }
 
 .container ul {
   display: grid;
   grid-gap: 1rem;
+  justify-items: center;
   grid-template-columns: auto auto auto;
 
   padding: 0;
@@ -39,13 +40,13 @@
 
 .container ul > li > a {
   display: flex;
+  flex: 1;
   justify-content: space-between;
   align-items: center;
 
   background-color: #f8b92a;
   text-decoration: none;
   padding: 1rem;
-  width: 87%;
   border-radius: 5px;
 
   color: white;
