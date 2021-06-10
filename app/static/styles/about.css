@@ -29,6 +29,13 @@
   text-align: center;
 }
 
+.container ul > li > img {
+  width: 8rem;
+  height: 8rem;
+
+  border-radius: 50rem;
+}
+
 .container ul > li > a {
   display: flex;
   justify-content: space-between;
@@ -44,12 +51,12 @@
   font-weight: bold;
 }
 
-.container ul > li > a > p {
-  margin: 0;
+.container ul > li > h2 {
+  margin: 0.5rem 0;
 }
 
-.container ul > li > h2 {
-  margin-bottom: 0.5rem;
+.container ul > li > a > p {
+  margin: 0;
 }
 
 .container ul > li > p {
