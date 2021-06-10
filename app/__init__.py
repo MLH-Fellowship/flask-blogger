@@ -24,3 +24,8 @@ def about_frankie():
 @app.route('/about/sebastian')
 def about_sebastian():
     return render_template('sebastian.html', fellowName='Sebastian');
+    return render_template('index.html', title="MLH Fellow", url=os.getenv("URL"))
+
+@app.route('/post')
+def post():
+    return render_template('post.html', title="Post")
