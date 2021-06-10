@@ -2,11 +2,11 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.blogposts a:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .hero {
-  margin-top: 2rem;
+  margin-top: 4rem;
   font-family: Roboto;
   font-size: 25px;
   line-height: 50px;
