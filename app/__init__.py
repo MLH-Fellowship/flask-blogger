@@ -15,12 +15,12 @@ def about():
 
 @app.route('/about/ishika')
 def about_ishika():
-    return render_template('about_base.html', fellowName='Ishika');
+    return render_template('ishika.html', fellowName='Ishika');
 
 @app.route('/about/frankie')
 def about_frankie():
-    return render_template('about_base.html', fellowName='Frankie');
+    return render_template('frankie.html', fellowName='Frankie');
 
 @app.route('/about/sebastian')
 def about_sebastian():
-    return render_template('about_base.html', fellowName='Sebastian');
+    return render_template('sebastian.html', fellowName='Sebastian');
