@@ -1,39 +1,75 @@
-{% extends 'base.html' %}
-
-{% block head %}
+{% extends 'base.html' %} {% block head %}
 <title>MLH PE Fellowship Blog by Fellows</title>
-{% endblock %}
-
-{% block body %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='styles/home.css') }}"
+/>
+{% endblock %} {% block body %}
 <div class="container">
-    <div class="hero">
-        <h1>
-            All you need to know about the MLH Production Engineer Fellowship as
-            told by current fellows
-        </h1>
-    </div>
-      
-    <section class="blogposts">
-        <a class="post" href="/post">
-            <h3>First week....how was it?</h3>
-            <p>Ins and outs of my first week as a Production Engineer Fellow</p>
-            <img>Ishika</img>
-            <p>June 8 <span>10 min read</span></p>
-        </a>
-    
-        <a class="post" href="/post"> >
-            <h3>First week....how was it?</h3>
-            <p>Ins and outs of my first week as a Production Engineer Fellow</p>
-            <img>Ishika</img>
-            <p>June 8 <span>10 min read</span></p>
-        </a>
-    
-        <a class="post" href="/post"> 
-            <h3>First week....how was it?</h3>
-            <p>Ins and outs of my first week as a Production Engineer Fellow</p>
-            <img>Ishika</img>
-            <p>June 8 <span>10 min read</span></p>
-        </a>
-    </section>
+  <div class="hero">
+    <h1>
+      All you need to know about the MLH Production Engineer Fellowship as told
+      by current fellows
+    </h1>
+  </div>
+
+  <section class="blogposts">
+    <a class="post" href="/post">
+      <img
+        id="post-img"
+        src="https://i0.wp.com/prikachi.com/wp-content/uploads/2020/07/DPP1.jpg"
+        alt="Post image"
+      />
+      <h3>First week....how was it?</h3>
+      <p>Ins and outs of my first week as a Production Engineer Fellow</p>
+      <img
+        id="profile-img"
+        src="https://i0.wp.com/prikachi.com/wp-content/uploads/2020/07/DPP1.jpg"
+        alt="Image of Ishika, an MLH fellow from Batch 3"
+      />
+      <h4>Ishika</h4>
+      <div id="date">
+        <p>June 8 · 10 min read</p>
+      </div>
+    </a>
+
+    <a class="post" href="/post">
+      <img
+        id="post-img"
+        src="https://i0.wp.com/prikachi.com/wp-content/uploads/2020/07/DPP1.jpg"
+        alt="Post image"
+      />
+      <h3>First week....how was it?</h3>
+      <p>Ins and outs of my first week as a Production Engineer Fellow</p>
+      <img
+        id="profile-img"
+        src="https://i0.wp.com/prikachi.com/wp-content/uploads/2020/07/DPP1.jpg"
+        alt="Image of Ishika, an MLH fellow from Batch 3"
+      />
+      <h4>Ishika</h4>
+      <div id="date">
+        <p>June 8 · 10 min read</p>
+      </div>
+    </a>
+
+    <a class="post" href="/post">
+      <img
+        id="post-img"
+        src="https://i0.wp.com/prikachi.com/wp-content/uploads/2020/07/DPP1.jpg"
+        alt="Post image"
+      />
+      <h3>First week....how was it?</h3>
+      <p>Ins and outs of my first week as a Production Engineer Fellow</p>
+      <img
+        id="profile-img"
+        src="https://i0.wp.com/prikachi.com/wp-content/uploads/2020/07/DPP1.jpg"
+        alt="Image of Ishika, an MLH fellow from Batch 3"
+      />
+      <h4>Ishika</h4>
+      <div id="date">
+        <p>June 8 · 10 min read</p>
+      </div>
+    </a>
+  </section>
 </div>
 {% endblock %}
