@@ -6,7 +6,7 @@ load_dotenv()
 app = Flask(__name__)
 
 @app.route('/health')
-def index():
+def health():
     return render_template('health.html')
 
 @app.route('/')
