@@ -5,6 +5,10 @@ from dotenv import load_dotenv
 load_dotenv()
 app = Flask(__name__)
 
+@app.route('/health')
+def index():
+    return render_template('health.html')
+
 @app.route('/')
 def index():
     return render_template('home.html')
